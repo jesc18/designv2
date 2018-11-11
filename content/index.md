@@ -1,25 +1,16 @@
 ---
-title: "Min fina titel"
+title: "Jenny Schubert"
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag heter Jenny Schubert och är född på Frösön, nära Östersund. Frösön var ett lungt och vackert ställe att växa upp på. Dessutom hade vi närhet till fjällen och jag åkte slalom varje helg och varje lov under större delen av uppväxten. 
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Året som utbytesstudent var starten på en himla massa flyttande för min del. Plötsligt var det inte vart jag bodde som påverkade vad jag gjorde, utan jag flyttade dit där jag hittade något som jag ville göra. Jag har bott i Norge (två gånger på olika orter), i Mexico (som utbytesstudent) och på flera olika ställen i Sverige, bla i Skövde, Stockholm, Kalmar. 
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Nu bor jag med min man och våra döttrar i Falköping sedan flera år. Flyttlusten har försvunnit tillslut.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Webbprogrammering är min hobby för tillfället. Ja, och så är jag  gymnastiktränare på fritiden med.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael

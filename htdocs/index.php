@@ -7,7 +7,7 @@
 define("ANAX_INSTALL_PATH", realpath(__DIR__ . "/.."));
 
 // Set development/production environment and error reporting
-require ANAX_INSTALL_PATH . "/view/anax/stylechooser/index.php";
+require ANAX_INSTALL_PATH . "/config/commons.php";
 
 // Get the autoloader by using composers version.
 require ANAX_INSTALL_PATH . "/vendor/autoload.php";
