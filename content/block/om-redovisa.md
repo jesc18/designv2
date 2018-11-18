@@ -1,3 +1,4 @@
 #### Redovisa på GitHub
 
-Länk till mitt redovisa-repo [repot för me/redovisa på GitHub](redovisa).
+Länk till mitt redovisa-repo [på GitHub](https://github.com/jesc18/designv2). 
+

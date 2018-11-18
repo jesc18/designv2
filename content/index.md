@@ -1,10 +1,24 @@
 ---
-title: "Jenny Schubert"
+title: "Jenny"
 ---
-Min me-sida i kursen design
-=========================
+---
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta: 
+                type: single
+                route: block/byline
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+---
+
+
+Min me-sida i kursen design
+===========================
+
+[FIGURE src="image/J3.jpg?w=250" class="right" caption="Bild på bokstaven 'J'."]
 
 Jag heter Jenny Schubert och är född på Frösön, nära Östersund. Frösön var ett lungt och vackert ställe att växa upp på. Dessutom hade vi närhet till fjällen och jag åkte slalom varje helg och varje lov under större delen av uppväxten. 
 
@@ -12,5 +26,7 @@ Jag heter Jenny Schubert och är född på Frösön, nära Östersund. Frösön 
 
 Nu bor jag med min man och våra döttrar i Falköping sedan flera år. Flyttlusten har försvunnit tillslut.
 
-Webbprogrammering är min hobby för tillfället. Ja, och så är jag  gymnastiktränare på fritiden med.
+Webbprogrammering är min hobby för tillfället. Ja, och så är jag  gymnastiktränare på fritiden.
+
+
 

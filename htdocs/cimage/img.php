@@ -4,7 +4,7 @@
  *
  * @author  Mikael Roos mos@dbwebb.se
  * @example http://dbwebb.se/opensource/cimage
- * @link    https://github.com/mosbth/cimage
+ * @link    https://github.com/jesc18/cimage
  *
  */
 
