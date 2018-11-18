@@ -36,8 +36,15 @@ html {
 
 .outer-wrap.outer-wrap-main {
     margin: auto;
-    width: 960px;
 }
+
+.region-flash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 p,
 li {
     font-family: 'Lato', sans-serif;
@@ -60,11 +67,15 @@ h2 {
 .site-logo
 
 .rm-navbar {
-    position: sticky;
+    /*position: sticky; */
     top: 3px;
-    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 1em;
+    padding-left: 1em; */
     background-color: none;
 }
 
@@ -85,7 +96,7 @@ h2 {
 }
 
 .rm-navbar a:link {
-    color: #f00;
+    color: chocolate;
     display: inline-block;
     padding: 0.5em 1.2em;
 }
