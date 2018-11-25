@@ -1,0 +1,47 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+ @import url('https://fonts.googleapis.com/css?family=Monteserrat|Lato'); 
+
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@colorFooter: #F9CEE8;
+@colorHeader: #041b3a;
+
+@textcolor: #ff66c4;
+@fontFamilyBody: 'Lato', sans-serif;
+@fontHeader: "Montserrat", "Gill Sans", sans-serif;
+
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorBody;
+    min-height: full-height;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100%/1 @fontFamilyBody;
+}
+
+h1 {
+    font-family: @fontHeader;
+    text-transform: uppercase;
+    color: @textcolor;
+    font-size: 3em;
+}
+
+h2, h4 {
+    font-family: @fontHeader;
+    text-transform: uppercase;
+    color: @textcolor, @bgColorBody;
+    font-size: 2em, 1em;
+}
+
+p {
+    size: 1.2em;
+}

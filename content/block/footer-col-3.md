@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Font-tips
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+En snygg webbsida med ännu snyggare typsnitt har det svenska företaget [Letters from Sweden](https://lettersfromsweden.se/). Måste ses!

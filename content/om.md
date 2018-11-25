@@ -31,4 +31,4 @@ Om
 
 I kursen Design 7,5p  lär vi oss om användbarhet och layout i bland annat CSS.
 
-[FIGURE src=image/J.jpg?w=300 caption="Bild på bokstaven 'J'."]
+[FIGURE src=image/JStarySky.png?w=300 caption="Bokstaven 'J'."]

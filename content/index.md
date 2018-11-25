@@ -15,10 +15,10 @@ views:
 ---
 
 
-Min me-sida i kursen design
+Min sida i design
 ===========================
 
-[FIGURE src="image/J3.jpg?w=250" class="right" caption="Bild på bokstaven 'J'."]
+[FIGURE src="image/J3StarySky.png?w=250" class="right" caption="Bokstaven 'J'."]
 
 Jag heter Jenny Schubert och är född på Frösön, nära Östersund. Frösön var ett lungt och vackert ställe att växa upp på. Dessutom hade vi närhet till fjällen och jag åkte slalom varje helg och varje lov under större delen av uppväxten. 
 

@@ -1,0 +1,132 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.outer-wrap-header {
+    position: sticky; 
+    top: 1px;
+    background-color: @colorHeader;
+}
+
+.outer-wrap-flash{
+    background-image: url("../img/theme/Happyflash.png");
+    background-size: 100%;
+    //background-repeat: no-repeat;
+}
+.outer-wrap-footer{
+    background-color: @colorFooter;
+}
+.site-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.site-logo-text{
+    display: none;
+}
+
+.outer-wrap.outer-wrap-main {
+    margin: auto;
+}
+
+.region-flash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em; */
+    background-color: none;
+}
+
+.my-navbar ul {
+    //text-decoration: none;
+}
+
+.my-navbar li {
+    display: inline-block;
+    padding: 0.25em;
+    margin: .25em;
+    border: 1px solid gray;
+    text-decoration: none;
+}
+
+.my-navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-navbar a:link {
+    color: white;
+    display: inline-block;
+    padding: 0.5em 1.2em;
+}
+
+.my-navbar a:hover {
+    //background-color: gray;
+    text-decoration: underline;
+}
+
+.my-navbar .selected {
+    background-color: chocolate;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row-main, .columns, .block.site-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    width: 30%;
+    margin: 1rem;
+}
+
+.column:hover {
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.outer-wrap-main {
+    padding: 2em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+display: inline;
+}

@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Kreativ logo
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Det finns många olika webbsidor där man kan skapa loggor gratis. Den bästa jag har hittat hittills är [Canva](https://www.canva.com) som finns i både gratis och betalversion.

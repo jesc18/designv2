@@ -14,7 +14,7 @@ return [
         "data" => [
             "baseTitle" => " | design",
             "bodyClass" => null,
-            "favicon" => "favicon.png",
+            "favicon" => "favicon2.png",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
@@ -35,7 +35,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/J2.jpg",
+                "siteLogo"      => "image/J2White.png?width=90%",
                 "siteLogoAlt"   => "J",
             ],
         ],
@@ -45,8 +45,8 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "Design",
-                "siteLogoTextIcon" => "image/theme/moon56x56.jpg",
-                "siteLogoTextIconAlt" => "Måne",
+                "siteLogoTextIcon" => "image/theme/faviconDE.png",
+                "siteLogoTextIconAlt" => "Stary Skye",
             ],
         ],
         [

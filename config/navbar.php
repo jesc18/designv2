@@ -24,8 +24,8 @@ return [
         "title" => "About this site.",
     ]
     [
-        "text" => "About",
-        "url" => "about",
-        "title" => "About this site.",
+        "text" => "Style",
+        "url" => "style",
+        "title" => "Stylechooser",
     ]
 ];

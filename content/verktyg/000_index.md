@@ -1,8 +1,17 @@
 ---
-title: Introduktion
-titleBreadcrumb: Verktyg och tekniker
+views:
+    flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+            src: "image/theme/HappyflashBG.png?width=1100&height=180&crop-to-fit&area=0,0,30,0"
 ---
-Introduktion till Verktyg och tekniker
+
+---
+title: Introduktion
+
+---
+Intro; Verktyg & tekniker
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/verktyg/000_index.md`.
