@@ -8,6 +8,39 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -328,14 +361,13 @@ template {
 html {
   overflow-y: scroll;
   background-color: #fff;
-  min-height: full-height;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 100%/1 'Lato', sans-serif;
+  font: 100.01%/1 'Lato';
 }
 h1 {
   font-family: "Montserrat", "Gill Sans", sans-serif;
@@ -349,9 +381,6 @@ h4 {
   text-transform: uppercase;
   color: #ff66c4, #fff;
   font-size: 2em, 1em;
-}
-p {
-  size: 1.2em;
 }
 /**
   * Layout style for general structure of header, navbar, main, footer
@@ -368,7 +397,7 @@ p {
  * General layout
  */
 .inner-wrap {
-  max-width: 1100px;
+  max-width: 64rem;
   margin: 0 auto;
 }
 .outer-wrap-header {
@@ -380,65 +409,61 @@ p {
   background-image: url("../img/theme/Happyflash.png");
   background-size: 100%;
 }
-.outer-wrap-footer {
-  background-color: #F9CEE8;
-}
-.site-logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.site-logo-text {
-  display: none;
-}
-.outer-wrap.outer-wrap-main {
-  margin: auto;
-}
 .region-flash {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+.site-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.site-logo-text {
+  display: none;
+}
 .my-navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /*padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em; */
-  background-color: none;
 }
 .my-navbar li {
-  display: inline-block;
   padding: 0.25em;
   margin: 0.25em;
-  border: 1px solid gray;
-  text-decoration: none;
-}
-.my-navbar a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 .my-navbar a:link {
-  color: white;
+  color: #fff;
   display: inline-block;
   padding: 0.5em 1.2em;
 }
 .my-navbar a:hover {
   text-decoration: underline;
 }
-.my-navbar .selected {
-  background-color: chocolate;
-}
 .row::after {
   content: "";
   display: block;
   clear: both;
 }
-.row-main,
+a#rm-menu-button {
+  color: #fff;
+}
+.breadcrum-list li {
+  list-style-type: none;
+}
+.breadcrumb-list li {
+  display: inline-block;
+  padding-left: 0;
+  text-decoration: none;
+}
+.inner-wrap-main .row,
+article .article,
+.wrap-sidebar,
 .columns,
 .block.site-footer {
   display: flex;
@@ -446,24 +471,74 @@ p {
   align-items: center;
   justify-content: center;
 }
+.has-sidebar-right,
+.has-sidebar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: center;
+}
+.region-sidebar-right {
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  float: left;
+}
+article.article {
+  float: left;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100%;
+}
+.region-sidebar-left {
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  float: left;
+}
+.figure.right,
+figure.figure {
+  float: right;
+  margin: 0em;
+  text-align: start;
+}
+div.region-sidebar-left .toc ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+.inner-wrap-main .row::after {
+  content: "";
+  display: block;
+  clear: both;
+  box-sizing: border-box;
+}
+.region-after-main {
+  max-width: 64rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.region-after-main .block {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid lightgray;
+}
 .column {
   width: 30%;
+  min-height: 12em;
+  padding: 1rem;
   margin: 1rem;
+  background-color: #ff66c4;
 }
 .column:hover {
+  background-color: rgba(255, 102, 196, 0.8);
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .outer-wrap-main {
-  padding: 2em;
   width: 100%;
-  box-sizing: border-box;
-}
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-li {
-  display: inline;
 }
 /**
  * Layout for responsive style through media queries.
@@ -471,6 +546,14 @@ li {
 @media screen and (max-width: 1500px) {
   .site-logo {
     display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 /**
@@ -4749,5 +4832,133 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Font Awesome 5 Brands';
 }
 /**
+ * Import the vertical grid.
+ */
+/**
+ * Responsive Grid
+ */
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
+/**
+ * Wrap grid in a container.
+ */
+/**
+ * All columns must be wrapped in a row.
+ */
+/**
+ * Create a column spanning @col columns.
+ */
+/**
+ * Push a column @offset columns.
+ */
+/**
+ * Pull a column left @offset columns.
+ */
+/**
+ * Pull a column right @offset columns.
+ */
+/* Import the vertical grid.
+ */
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
   * My own settings, not currently in their own module.
   */
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
+/* // Activate the grid base font
+    body {
+        #desinax-hgrid.font(@fontSizeBody);
+        font: 100.01%/1 @fontFamilyBody;
+    }
+    // Activate grid and affect all typographic elements
+    #desinax-hgrid.activateDefaultTypography();
+    
+    // Show the grid
+.hgrid .wrap {
+    @gridImage: "@desinax/typographic-grid/img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}   */
+.breadcrum-list ul {
+  list-style-type: none;
+}
+/* implement the grid */
+/*@columnWidth:   30;
+ @gutterWidth:   10;
+ @columns:       24;
+ @gridType:      "float"; // "flex"
+
+  .inner-wrap.inner-wrap-main {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 250px;
+    grid-template-rows: 200px 600px 200px;
+    }
+
+    .article,
+    .region-sidebar-left,
+    .region-sidebar-right,
+    .block {
+        box-sizing: border-box;
+        padding: 1em;
+    }
+
+    .article {
+        background-color: #0074d9;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .region-sidebar-left {
+        background-color: #ff4136;
+        max-width: 250px;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .region-sidebar-right {
+        background-color: #01ff70;
+        max-width: 250px;
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;;
+    }
+
+    .inner-wrap.inner-wrap-main .block {
+        background-color: #eeff01;
+        grid-column: 3 / 3;
+        grid-row: 2 / 2;
+    }   */

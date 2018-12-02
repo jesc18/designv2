@@ -1,4 +1,16 @@
 ---
+views:
+    byline:
+        region: after-main
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/byline
+
+---
+
+---
 title: "Test"
 ---
 Testsida för HTML och Markdown

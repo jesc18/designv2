@@ -12,9 +12,13 @@
  //@import "module/kmom01.less";
  //@import "module/stylechooser.less";  // Just an example module
  
+// Import typographic grid
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
  //Import normalize.css
  @import "normalize.css/normalize.less";
- 
+
  /**
   * Base style to affect HTML elements on a general scale.
   */
@@ -42,7 +46,96 @@
  @import "@fortawesome/fontawesome-free/less/fontawesome.less";
  @import "@fortawesome/fontawesome-free/less/solid.less";
  @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+ 
+ /**
+ * Import the vertical grid.
+ */
+@import "grid.less";
+
+/* Import the vertical grid.
+ */
+@import "regions.less";
+ 
+ 
+ 
  /**
   * My own settings, not currently in their own module.
   */
  
+  @import "mixin/clearfix.less" ;
+      
+  .clearfix() {
+        #design-mixin.clearfix();
+    }
+ 
+    @fontFamilyBody: 'Lato'; 
+    
+   /* // Activate the grid base font
+    body {
+        #desinax-hgrid.font(@fontSizeBody);
+        font: 100.01%/1 @fontFamilyBody;
+    }
+    // Activate grid and affect all typographic elements
+    #desinax-hgrid.activateDefaultTypography();
+    
+    // Show the grid
+.hgrid .wrap {
+    @gridImage: "@desinax/typographic-grid/img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}   */
+
+.breadcrum-list ul {
+    list-style-type: none;
+}
+
+  /* implement the grid */
+ // Default grid, change to fit your requirements.
+ /*@columnWidth:   30;
+ @gutterWidth:   10;
+ @columns:       24;
+ @gridType:      "float"; // "flex"
+
+  .inner-wrap.inner-wrap-main {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 250px;
+    grid-template-rows: 200px 600px 200px;
+    }
+
+    .article,
+    .region-sidebar-left,
+    .region-sidebar-right,
+    .block {
+        box-sizing: border-box;
+        padding: 1em;
+    }
+
+    .article {
+        background-color: #0074d9;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .region-sidebar-left {
+        background-color: #ff4136;
+        max-width: 250px;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .region-sidebar-right {
+        background-color: #01ff70;
+        max-width: 250px;
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;;
+    }
+
+    .inner-wrap.inner-wrap-main .block {
+        background-color: #eeff01;
+        grid-column: 3 / 3;
+        grid-row: 2 / 2;
+    }   */
+    

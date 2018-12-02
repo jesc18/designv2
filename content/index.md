@@ -4,9 +4,9 @@ title: "Jenny"
 ---
 views:
     byline:
-        region: main
+        region: after-main
         template: anax/v2/block/default
-        sort: 2
+        sort: 3
         data:
             meta: 
                 type: single
@@ -15,7 +15,7 @@ views:
 ---
 
 
-Min sida i design
+Min sida, Design 7.5p
 ===========================
 
 [FIGURE src="image/J3StarySky.png?w=250" class="right" caption="Bokstaven 'J'."]
